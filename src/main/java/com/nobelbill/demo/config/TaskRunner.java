@@ -12,6 +12,8 @@ public class TaskRunner implements CommandLineRunner , TaskExecutionListener {
     @Override
     public void run(String... args) throws Exception {
         System.out.println("Runner...");
+
+        System.out.println("f1 feature");
     }
 
     @Override
